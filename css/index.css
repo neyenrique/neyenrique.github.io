@@ -1,0 +1,168 @@
+body{
+  font-family:"Cantarell",sans-serif;
+  background: black;
+}
+
+main{
+  background:#C0C0C0;
+}
+
+
+#box{
+  max-width:980px;
+  min-width:490px;
+  padding:10px;
+  border:0px;
+  margin:10px auto;
+}
+
+
+#neyvideo img{
+  width: 960px;
+  height: auto;
+  padding: 10px;
+  border: 1px;
+}
+
+
+#neyvideo{
+ width:750px;
+ height:422px;
+ padding:10px;
+ border:1px dashed grey;
+ margin:0 auto;
+ float: center;
+ background-color:black;
+}
+
+nav{
+  background-color:black;
+  margin:0 auto;
+  border:1px dashed grey;
+}
+
+
+ul {
+  margin:0 auto;
+  padding:20px;
+  text-align:center;
+}
+
+li {
+  font-style:courier;
+  font-size: 20px;
+  list-style-type: none;
+  display: inline-block;
+  margin:0 40px;
+}
+
+li > a {
+
+  background:#E0E0E0;
+  text-decoration:none;
+  color:black;
+  display:inline-block;
+  padding:5px;
+  border:2px solid #ccc;
+  float:right;
+}
+
+li > a:hover {
+  background:black;
+  color: white;
+  border: 1px solid #E0E0E0;
+  transition: border-color 1s, ease-in, background 0.50s ease-in;
+}
+
+
+#about{
+  float:left;
+  font-size:15px;
+  padding:0px 56px;
+  color: black;
+  border-top:1px dashed grey;
+  margin-left:30px;
+  padding-bottom:20px;
+
+}
+
+
+#head{
+  font-family:courier;
+  font-size:17px;
+  padding:0px auto;
+  color: white;
+  text-align:center;
+  border:0;
+  margin:0 auto;
+}
+
+address {
+  color: black;
+  font-family:courier;
+  text-align:center;
+  padding:0px 2px;
+  margin:0px auto;
+}
+
+address a{
+  color:black;
+}
+
+h3{
+  font-size: 25px;
+  color: black;
+}
+
+
+div{
+  width: 600px;
+  padding:20px;
+  width:auto;
+  padding bottom:20px;
+  background-color: black;
+  border:1px dashed grey;
+}
+
+#Vimeo, #Twitter, #LinkedIn {
+  list-style-type: none;
+  padding-left: 0;
+  display: inline-block;
+  margin-right: 2em;
+  font-family: 'Roboto', serif;
+  margin: 1em;
+}
+
+#{
+  color: rgb(9785,47014,60140);
+}
+
+a:visited {
+  display: inline-block;
+  padding: 1em 0em;
+  background:grey;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  border-radius: 10%;
+}
+
+a:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+footer{
+  margin-top:0px;
+}
+
+address{
+  margin-bottom:0px;
+}
+
+footer {
+  font-family:courier;
+  font-size: 14px;
+  color:white;
+  text-align:center;
+  padding:0px;
+}

@@ -1,0 +1,194 @@
+body{
+  font-family:"Cantarell",sans-serif;
+  background-image: url("../img/background_photo.png")
+}
+
+nav{
+  background-color:none;
+  margin:6px auto;
+  border-top: 1px dashed grey;
+  border-bottom: 1px dashed grey;
+}
+
+
+ul {
+  margin:0 auto;
+  padding:5px;
+  text-align:center;
+  clear:right;
+}
+
+li {
+  font-style:courier;
+  font-size: 20px;
+  list-style-type: none;
+  display: inline-block;
+  margin:0 40px;
+}
+
+li > a {
+
+  background:#E0E0E0;
+  text-decoration:none;
+  color:black;
+  display:inline-block;
+  padding:5px;
+  border:2px solid #ccc;
+
+}
+
+li > a:hover {
+  background:black;
+  color: white;
+  border: 1px solid #E0E0E0;
+  transition: border-color 1s, ease-in, background 0.50s ease-in;
+}
+
+
+#box{
+  max-width:980px;
+  min-width:490px;
+  padding:10px;
+  border:0px;
+  margin:10px auto;
+}
+
+
+#neyprofile img{
+  width: 240px;
+  height: auto;
+  padding: 10px;
+
+}
+
+#neyprofile,#summary,#objective{
+  width:300px;
+  height:260px;
+  padding:10px;
+  border:1px solid grey;
+  margin-right:2px;
+  margin-top: 20px;
+  float:left;
+}
+
+#objective,#neyprofile,#summary{
+  border:none;
+}
+
+#neyprofile,#summary{
+  border-right:1px dashed grey;
+
+}
+
+
+#head{
+  font-family:courier;
+  font-size:17px;
+  padding:0px auto;
+  color: black;
+  text-align:center;
+  border:0;
+  margin:0 auto;
+}
+
+address {
+  font-family:courier;
+  text-align:center;
+  padding:0px 2px;
+  margin:0px auto;
+}
+
+ul {
+
+}
+
+li {
+  list-style-type: none;
+  display:inline;
+  padding:0px 10px;
+}
+
+
+
+h2{
+  font-size: 25px;
+  color: black;
+}
+
+
+
+h3{
+  font-size: 20px;
+  color:black;
+}
+
+h4{
+  font-style:italic;
+  font-size: 18px;
+  color:black;
+}
+
+#experience p{
+  font
+}
+
+
+div{
+  width: 600px;
+  padding:20px;
+  border: 1px solid grey;
+  width:1200px;
+  padding bottom:20px;
+}
+
+
+#education,#experience, #skills{
+ padding:5px;
+ border-top:1px dashed grey;
+ margin:5px 0px;
+}
+
+#education {
+  clear:left;
+}
+#education  a{
+  text-decoration:none;
+  color:grey;
+  font-size:16px;
+  }
+
+#experience article{
+  margin:30px 0;
+}
+
+#education h3 {
+  margin-bottom:0px;
+}
+
+#education p{
+  margin-top:0px;
+
+}
+
+#experience h3{
+  margin-bottom:0px;
+}
+
+#experience h4{
+  margin-top:0px;
+}
+
+#skills ul{
+  padding:0px 0px;
+}
+
+#skills li{
+  padding:0px;
+}
+footer {
+  font-family:courier;
+  font-size: 14px;
+  text-align:center;
+  padding:0px;
+  margin:2px auto;
+}
